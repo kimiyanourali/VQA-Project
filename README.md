@@ -2,7 +2,9 @@
 
 Extracting scene text visual question answering system has become an important area of the combination of computer vision and natural language processing and has so far been able to attract a lot of attention. The method of extracting text from an image with an intuitive question and answer system with the help of deep learning and neural networks has made tremendous progress in helping blind people, for example to read scene texts or to drive a car automatically. In our research, we have tried to improve the accuracy of the Scene TextVQA model by using the YOLO Object Recognition Network. The system will also be able to detect and identify text in natural scenes using the OCR module. OCR is able to extract text from clean documents; Therefore, understanding the text in natural scenes due to curvature, distortion, background, different fonts and other challenges has a much higher level of OCR and will lead to the use of deep learning. 
 
-
+in this project used YOLO for object detection and resnet for feature extraction.
+for question embbeding used glove.
+image of scene and question are inputs and answer is probability. to answerthe the question used attention mechanisms.
 
 
 In the following, we will see an example of this system:
